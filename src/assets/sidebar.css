@@ -1,0 +1,16 @@
+.nav-item a {
+  @apply flex items-center px-4 rounded-md rounded-tl-xl rounded-br-xl py-2 text-gray-800 duration-200;
+}
+.nav-item a:hover {
+  @apply text-white bg-blue-500;
+}
+.nav-item a.active {
+  @apply text-white bg-blue-500;
+}
+.nav-item a svg {
+  @apply h-5 w-5 mr-2;
+}
+
+.nav-item a svg.expand {
+  margin-right: 0 !important;
+}

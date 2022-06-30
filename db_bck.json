@@ -1,0 +1,46 @@
+{
+  "materials": [
+    {
+      "id": 1,
+      "stock": 44,
+      "title": "Supportal",
+      "type": "reprehenderit"
+    },
+    {
+      "id": 2,
+      "stock": 36,
+      "title": "Interfind",
+      "type": "ea"
+    },
+    {
+      "id": 3,
+      "stock": 21,
+      "title": "Exposa",
+      "type": "officia"
+    },
+    {
+      "id": 4,
+      "stock": 43,
+      "title": "Geostele",
+      "type": "labore"
+    },
+    {
+      "id": 5,
+      "stock": 86,
+      "title": "Ozean",
+      "type": "est"
+    },
+    {
+      "id": 7,
+      "stock": 70,
+      "title": "Isosure",
+      "type": "reprehenderit"
+    },
+    {
+      "id": 8,
+      "stock": 2,
+      "title": "Gorganic",
+      "type": "cupidatat"
+    }
+  ]
+}

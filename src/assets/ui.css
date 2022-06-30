@@ -1,0 +1,84 @@
+.btn {
+  @apply px-3 py-1 rounded-md duration-200;
+}
+.btn.primary {
+  @apply bg-blue-600 text-white hover:bg-blue-900 hover:drop-shadow;
+}
+.btn.cancel {
+  @apply bg-rose-600 text-white hover:bg-rose-900 hover:drop-shadow;
+}
+.btn.warning {
+  @apply bg-amber-600 text-white hover:bg-amber-900 hover:drop-shadow;
+}
+.btn:disabled {
+  @apply cursor-not-allowed bg-gray-300 hover:drop-shadow-none hover:bg-gray-300;
+}
+
+.title {
+  @apply my-3 relative block before:block before:absolute before:-bottom-2 before:bg-blue-600 before:duration-200 before:h-1 before:rounded before:w-0 before:hover:w-3/4;
+}
+.title.primary {
+  @apply text-4xl font-light;
+}
+.title.secondary {
+  @apply text-2xl font-light;
+}
+
+.form-control {
+  @apply mt-4 relative;
+}
+
+.form-control.input label {
+  @apply block text-sm font-medium text-gray-700;
+}
+.form-control.input input {
+  @apply mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md;
+}
+.form-control.input input:disabled {
+  @apply bg-gray-300 text-gray-500;
+}
+
+.form-control.textarea label {
+  @apply block text-sm font-medium text-gray-700;
+}
+.form-control.textarea textarea {
+  @apply mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md;
+}
+
+.form-control.textarea textarea:disabled {
+  @apply bg-gray-300 text-gray-500;
+}
+
+.form-control.select label {
+  @apply block text-sm font-medium text-gray-700;
+}
+.form-control.select select {
+  @apply mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm;
+}
+
+.form-control.checkbox {
+  @apply flex items-center;
+}
+.form-control.checkbox label {
+  @apply block text-sm font-medium text-gray-700 mr-3;
+}
+.form-control.checkbox input {
+  @apply focus:ring-blue-500 h-4 w-4 text-blue-600 border-gray-300 rounded;
+}
+
+.form-control.radio div {
+  @apply flex items-center mt-1;
+}
+.form-control.radio div label {
+  @apply block text-sm font-medium text-gray-700 mr-3;
+}
+.form-control.radio div input {
+  @apply focus:ring-blue-500 h-4 w-4 text-blue-600 border-gray-300 rounded-full;
+}
+
+.animation-image {
+  @apply cursor-pointer duration-200;
+}
+.animation-image:hover {
+  @apply scale-75;
+}

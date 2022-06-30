@@ -1,0 +1,14 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "css.validate": false,
+  "editor.formatOnPaste": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#3A292D",
+    "titleBar.activeBackground": "#523A3F",
+    "titleBar.activeForeground": "#FBFAFA"
+  }
+}
